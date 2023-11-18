@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // this is initially black if not constructed by  a story board
+        view.backgroundColor = .white
     }
 
 
